@@ -1,0 +1,11 @@
+<!-- Indices written at Sat, 27 Aug 2016 12:28:00 IST -->
+
+<datastore-indexes>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="Diary" ancestor="false" source="auto">
+        <property name="uid" direction="asc"/>
+        <property name="date" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
